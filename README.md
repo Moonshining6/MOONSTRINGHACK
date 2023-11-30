@@ -1,13 +1,13 @@
 <h1 align="center">
-  <b> AbhiModszYT </b>
+  <b> ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ </b>
 </h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/26aa5ce660ccb0ebdb38c.jpg" alt="AbhiModszYT">
+  <img src="https://telegra.ph/file/a32783a91999e9774054a.jpg" alt="AbhiModszYT">
 </p>
 
 <h6 align="center">
-  <b>⚡ AbhiModszYT⚡</b>
+  <b>⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️</b>
 </h6>
 
 <h3 align="center">
@@ -26,11 +26,11 @@
 ------
 # Deploy To Heroku
 
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhiModszYT/StringHackbot)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/synax10/STRINGHACK)
 
 ## Credits
 
-- 💖 [AbhiModszYT](https://t.me/AbhiModszYT_Return)
+- 💖 [⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️](https://t.me/synax10)
 
 ------
 
