@@ -1,6 +1,6 @@
 {
-    "name": "AMBOT",
-    "description": "A bot can hack your telegram id just through string session⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️",
+    "name": "𝐌 𝐎 𝐎 𝐍",
+    "description": "A bot can hack your telegram id just through string session⚡️𝐌 𝐎 𝐎 𝐍⚡️",
     "logo": "",
     "keywords": [
         "TELETHON",
@@ -9,7 +9,7 @@
         "AbhiModszYT"
     ],
     "website": "",
-    "success_url": "https://t.me/synax10",
+    "success_url": "https://t.me/MILKY_WAY_45",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
