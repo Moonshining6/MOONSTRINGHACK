@@ -1,13 +1,13 @@
 <h1 align="center">
-  <b> ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ </b>
+  <b> ⚡️𝐌 𝐎 𝐎 𝐍⚡️ </b>
 </h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a32783a91999e9774054a.jpg" alt="AbhiModszYT">
+  <img src="https://telegra.ph/file/d557c20c6054491d2c20a.jpg" alt="AbhiModszYT">
 </p>
 
 <h6 align="center">
-  <b>⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️</b>
+  <b>⚡️𝐌 𝐎 𝐎 𝐍⚡️</b>
 </h6>
 
 <h3 align="center">
@@ -26,11 +26,11 @@
 ------
 # Deploy To Heroku
 
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/synax10/STRINGHACK)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Moonshining6/STRINGHACK)
 
 ## Credits
 
-- 💖 [⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️](https://t.me/synax10)
+- 💖 [⚡️𝐌 𝐎 𝐎 𝐍⚡️](https://t.me/MILKY_WAY_45)
 
 ------
 
